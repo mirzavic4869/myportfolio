@@ -56,7 +56,7 @@ const Skills = () => {
 						<img className="w-20 mx-auto" src={Next} alt="nextjs icon" />
 						<p className="my-2">NEXT JS</p>
 					</div>
-					<div className="shadow-mdS shadow-black hover:scale-110 duration-500 p-4">
+					<div className="shadow-md shadow-black hover:scale-110 duration-500 p-4">
 						<img className="w-20 mx-auto" src={Figma} alt="Figma icon" />
 						<p className="my-2">FIGMA</p>
 					</div>
