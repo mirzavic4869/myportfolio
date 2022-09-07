@@ -1,6 +1,12 @@
 import { React, useState } from "react";
 import Logo from "../assets/logoku.jpg";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+	FaBars,
+	FaTimes,
+	FaGithub,
+	FaLinkedin,
+	FaWhatsapp,
+} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -103,27 +109,52 @@ const Navbar = () => {
 			<div className="hidden fixed lg:flex flex-col top-[35%] left-0">
 				<ul>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="/">
+						<a
+							className="flex justify-between w-full items-center"
+							href="https://www.linkedin.com/in/mirzam-avicena-601a71152/"
+						>
 							Linkedin
 							<FaLinkedin size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="/">
+						<a
+							className="flex justify-between w-full items-center"
+							href="https://github.com/mirzavic4869"
+						>
 							GitHub
 							<FaGithub size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="/">
+						<a
+							className="flex justify-between w-full items-center"
+							href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=avicenamirzam@gmail@gmail.com"
+						>
 							Email
 							<HiOutlineMail size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="/">
+						<a
+							className="flex justify-between w-full items-center"
+							href="https://drive.google.com/file/d/1-OIcL0CbLLJSwfVuvO_jrPS4vKzohHXn/view?usp=sharing"
+						>
 							Resume
 							<BsFillPersonLinesFill size={30} />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div className="hidden fixed lg:flex flex-col bottom-0 right-0">
+				<ul>
+					<li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:mr-[10px] duration-300 bg-[#4fce5d]">
+						<a
+							className="flex justify-between w-full items-center"
+							href="https://wa.me/6282138793602"
+						>
+							<FaWhatsapp size={30} />
+							WhatsApp
 						</a>
 					</li>
 				</ul>
