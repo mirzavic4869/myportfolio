@@ -10,12 +10,15 @@ import Figma from "../assets/figma.png";
 
 const Skills = () => {
 	return (
-		<div name="skills" className="bg-slate-900 text-white ">
+		<div
+			name="skills"
+			className="bg-[#313131ff] text-white w-full h-full lg:h-screen"
+		>
 			{/* Container */}
-			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center ">
 				<div>
-					<p className="text-4xl font-bold inline border-b-4 border-white">
-						Experience
+					<p className="text-4xl font-bold inline border-b-4 border-[#ffb633ff]">
+						Skills
 					</p>
 					<p className="py-4">// These are the technologies I've worked with</p>
 				</div>

@@ -3,10 +3,10 @@ import Middleman from "../assets/Middleman.png";
 
 const Projects = () => {
 	return (
-		<div name="projects" className="bg-slate-900 w-full md:hscreen text-white">
+		<div name="projects" className="bg-[#2c2c2cff] w-full h-full text-white">
 			<div className="max-w-[1000px] w-full h-full mx-auto p-4 flex flex-col justify-center">
 				<div className="pb-8">
-					<p className="text-4xl font-bold inline border-b-4 border-white">
+					<p className="text-4xl font-bold inline border-b-4 border-[#ffb633ff]">
 						Projects
 					</p>
 					<p className="py-4">// Check out of my recent projects</p>
