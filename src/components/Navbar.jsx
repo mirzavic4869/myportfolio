@@ -11,32 +11,32 @@ const Navbar = () => {
 	return (
 		<div className="sticky top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#2c2c2cff] text-white shadow-md">
 			<div>
-				<img className="rounded-full" src={Logo} alt="logo image" style={{ width: "50px" }} />
+				<img className="rounded-full" src={Logo} alt="Logo" style={{ width: "50px" }} />
 			</div>
 			{/* menu */}
 
 			<ul className="hidden md:flex">
-				<li>
+				<li className="hover:text-[#ffb633ff]">
 					<Link to="home" smooth={true} duration={500}>
 						Home
 					</Link>
 				</li>
-				<li>
+				<li className="hover:text-[#ffb633ff]">
 					<Link to="about" smooth={true} duration={500}>
 						About
 					</Link>
 				</li>
-				<li>
+				<li className="hover:text-[#ffb633ff]">
 					<Link to="skills" smooth={true} duration={500}>
 						Skills
 					</Link>
 				</li>
-				<li>
+				<li className="hover:text-[#ffb633ff]">
 					<Link to="projects" smooth={true} duration={500}>
 						Projects
 					</Link>
 				</li>
-				<li>
+				<li className="hover:text-[#ffb633ff]">
 					<Link to="contact" smooth={true} duration={500}>
 						Contact
 					</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
 			</ul>
 
 			{/* hamburger */}
-			<div className="md:hidden z-10" onClick={handleClick}>
+			<div className="z-10 md:hidden" onClick={handleClick}>
 				{!nav ? <FaBars /> : <FaTimes />}
 			</div>
 			{/* mobile menu */}
@@ -81,35 +81,35 @@ const Navbar = () => {
 			<div className="hidden fixed lg:flex flex-col top-[35%] left-0">
 				<ul>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="https://www.linkedin.com/in/mirzam-avicena-601a71152/">
+						<a className="flex items-center justify-between w-full" href="https://www.linkedin.com/in/mirzam-avicena-601a71152/">
 							Linkedin
 							<FaLinkedin size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="https://github.com/mirzavic4869">
+						<a className="flex items-center justify-between w-full" href="https://github.com/mirzavic4869">
 							GitHub
 							<FaGithub size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=avicenamirzam@gmail.com">
+						<a className="flex items-center justify-between w-full" href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=avicenamirzam@gmail.com">
 							Email
 							<HiOutlineMail size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#ffb633ff]">
-						<a className="flex justify-between w-full items-center" href="https://drive.google.com/file/d/1DX4-tn90J3_FmtCRLRwROFiiSqhRtIkZ/view?usp=share_link">
+						<a className="flex items-center justify-between w-full" href="https://drive.google.com/file/d/1DX4-tn90J3_FmtCRLRwROFiiSqhRtIkZ/view?usp=share_link">
 							Resume
 							<BsFillPersonLinesFill size={30} />
 						</a>
 					</li>
 				</ul>
 			</div>
-			<div className="hidden fixed lg:flex flex-col bottom-0 right-0">
+			<div className="fixed bottom-0 right-0 flex-col hidden lg:flex">
 				<ul>
 					<li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:mr-[10px] duration-300 bg-[#4fce5d]">
-						<a className="flex justify-between w-full items-center" href="https://wa.me/6282138793602">
+						<a className="flex items-center justify-between w-full" href="https://wa.me/6282138793602">
 							<FaWhatsapp size={30} />
 							WhatsApp
 						</a>
