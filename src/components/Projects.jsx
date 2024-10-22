@@ -50,10 +50,10 @@ const Projects = () => {
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold tracking-wider text-white">Next JS Apllication</span>
 							<div className="pt-8 text-center">
-								<a href="https://www.halalanft.com/">
+								<a href="https://frontend-7wse0g5ns-halalanft.vercel.app/">
 									<button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">Demo</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/halalanft/frontend">
 									<button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">Code</button>
 								</a>
 							</div>
